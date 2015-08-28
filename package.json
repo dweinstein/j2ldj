@@ -1,6 +1,6 @@
 {
   "name": "j2ldj",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "stream content-type: application/json to newline delimitted json",
   "main": "j2ldj",
   "bin": {
