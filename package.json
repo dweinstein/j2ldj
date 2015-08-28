@@ -1,0 +1,29 @@
+{
+  "name": "j2ldj",
+  "version": "0.0.1",
+  "description": "stream content-type: application/json to newline delimitted json",
+  "main": "j2ldj",
+  "bin": {
+    "j2ldj": "j2ldj"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dweinstein/j2ldj.git"
+  },
+  "keywords": [
+    "stream",
+    "ldj"
+  ],
+  "author": "dweinstein",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dweinstein/j2ldj/issues"
+  },
+  "homepage": "https://github.com/dweinstein/j2ldj#readme",
+  "dependencies": {
+    "JSONStream": "^1.0.4"
+  }
+}

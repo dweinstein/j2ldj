@@ -1,0 +1,9 @@
+#!/usr/bin/env node --harmony
+'use strict';
+const JSONStream = require('JSONStream')
+
+process.stdin
+  .pipe(JSONStream.parse('*'))
+  .pipe(JSONStream.stringify(false))
+  .pipe(process.stdout)
+
