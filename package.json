@@ -25,5 +25,6 @@
   "homepage": "https://github.com/dweinstein/j2ldj#readme",
   "dependencies": {
     "JSONStream": "^1.0.4"
-  }
+  },
+  "devDependencies": {}
 }
