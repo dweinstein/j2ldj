@@ -3,7 +3,7 @@
 const JSONStream = require('JSONStream')
 
 process.stdin
-  .pipe(JSONStream.parse())
+  .pipe(JSONStream.parse('*'))
   .pipe(JSONStream.stringify(false))
   .pipe(process.stdout)
 
